@@ -74,7 +74,7 @@ How to Run:
 # Clone the repository:
 bash
 Copy code
-git clone https://github.com/yourusername/predictive-maintenance.git
+git clone https://github.com/puckuz/predictive-maintenance-for-Industrial-Equipment.git
 Navigate to the project directory:
 bash
 Copy code
