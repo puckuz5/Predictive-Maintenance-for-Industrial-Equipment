@@ -76,6 +76,10 @@ The model’s performance in predicting tool wear produced the following results
 Anomalies in the operational data were detected using the Isolation Forest model. These anomalies represent deviations from normal conditions, potentially indicating issues leading to machine failure.
 
 - **Detected Anomalies**: Examples include deviations in air temperature, process temperature, rotational speed, torque, and tool wear, often associated with power failure events.
+  # observation
+  -Power Failure seems to be a common failure type among the detected anomalies, indicating that the model is flagging operational conditions associated with this failure type.
+  -The rotational speed and torque values vary among the anomalies, suggesting that a range of operational settings might trigger anomalies.
+  -Tool wear times also vary, showing that anomalies are detected under different tool wear conditions.
 
 - **Next Steps**:
   - Continue exploring operational patterns that result in anomalies and failure.
